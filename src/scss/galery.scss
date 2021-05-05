@@ -1,0 +1,14 @@
+.galery{
+    max-width: 80w;
+    
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    .galeryPhoto{
+        max-width: 20vw;
+        margin: 15px auto;
+    }
+    
+}
